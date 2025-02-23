@@ -1,17 +1,16 @@
-![iOS2UI icon](https://raw.githubusercontent.com/Marcus-J-A/iOStoUI/refs/heads/main/icon-2.png)
+![iOS2UI icon](https://github.com/user-attachments/assets/3f9daa87-7f9c-43cd-b5b5-d0060e6d623a)
 # iOS2UI
 > Dualboot utility for booting NonUI & iOS.
 
 ## Requirements
 
 **On Device**
-
 > 1. OpenSSH - allows you access device's command shell remotely and transfer files. Available in Cydia
 > 2. dualbootstuff package. It contains gptfdisk, hfs_resize, kloader and other tools we'll use. Available in this Cydia repository (nyansatan.github.io/apt)
 > 3. diskdev-cmds package. Just for umount. Available in Cydia
 > 4. nano - CLI text editor we'll use it to edit fstab and launchd.conf. Available in Cydia
 
-**Device Requirements**
+**Supported Devices**
 > iPhone 4 - 5
 
 ## How to use
