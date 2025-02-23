@@ -55,12 +55,7 @@ send "2\r"
 expect "Enter name: "
 send "Data\r"
 expect "Command (? for help): "
-send "x\r"
-send "2\r"
-send "48\r"
-send "49\r"
-send "\r"
-send "\r"
+send "g\r"
 puts -nonewline "Enter the Partition unique GUID you saved earlier: "
 flush stdout
 gets stdin GUID_UNIQUE
